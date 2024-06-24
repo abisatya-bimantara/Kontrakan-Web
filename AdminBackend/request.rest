@@ -1,0 +1,43 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/6
+
+###
+POST http://localhost:5000/users
+Content-Type:application/json
+
+{
+    "nama_kontrakan": "Kontrakan kakmay",
+    "harga": "Rp. 14 jt",
+    "disewakan_selama": "1 Tahun",
+    "pemilik": "An Amar",
+    "nomor_telepon": "'0898-6289-872",
+    "alamat_kontrakan": "Depok Sawangan Pasir Putih Komplek Raffa Resident 2, Pasir Putih, Kupu Bombay",
+    "kelurahan": "Pasir Putih",
+    "kecamatan": "Sawangan",
+    "asal_kota": "Depok",
+    "fasilitas": "Memilliki 2 kamar mandi dan 1 parkir mobil, CCTV 24 jam, Bebas banjir, Security 24 jam ",
+    "kategori": "Campur (Putra dan Putri)"
+}
+
+###
+PATCH http://localhost:5000/users/6
+Content-Type:application/json
+
+{
+    "nama_kontrakan": "Kontrakan kakriznai",
+    "harga": "Rp. 1,2jt",
+    "disewakan_selama": "1 Bulan",
+    "pemilik": "Muhamad Agustian Fadhil",
+    "nomor_telepon": "0E2:J288-0892-5314",
+    "alamat_kontrakan": "JL. Rawadenok RT 11, RW 12, Kota Depok",
+    "kelurahan": "Pancoran Mas",
+    "kecamatan": "Depok",
+    "asal_kota": "Depok",
+    "fasilitas": "Memiliki 2 kamar Memiliki kamar mandi, dapur, dan ruang tamu Mempunyai akses kendaraan 1 mobil dengan luas 50 meter ",
+    "kategori": "Campur (Putra dan Putri)"
+}
+
+###
+DELETE http://localhost:5000/users/6

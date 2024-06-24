@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.welcome-container {
+    background-image: url('/src/assets/bgselamatdatang.png');
+    height: 607px;
+    width: 1260px;
+    margin: 50px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome-content {
+    position: absolute;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    max-width: 50%;
+    bottom: 200px;
+    left: 20vw;
+}
+
+.welcome-content h2 {
+    width: 1294px;
+position: relative;
+font-size: 60px;
+line-height: 80px;
+display: flex;
+font-family: Poppins;
+color: #3b7f77;
+text-align: center;
+align-items: flex-end;
+justify-content: center;
+height: 97px;
+mix-blend-mode: color-burn;
+}
+
+.welcome-content p {
+    width: 1033px;
+    position: relative;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 34px;
+    flex-shrink: 0;
+    z-index: 0;
+}
+
+.welcome-button {
+    background-color: #72c7a1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.welcome-button:hover {
+    background-color: #5fa788;
+}

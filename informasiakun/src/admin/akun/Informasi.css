@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.d-flex flex-column{
+  justify-content: center;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .nav {
+    margin-top: 50px;
+    width: 100%;
+  }
+  
+  .nav-item {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+  }
+  
+  .nav-item.active {
+    background-color: #d1eceb;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .header .menu {
+    margin-left: 20px;
+  }
+  
+  .profile {
+    margin-left: 40px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .info-section, .settings-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+  }
+  
+  .info-section h2, .settings-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .info-group, .settings-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-item, .settings-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .info-item button {
+    background-color: #65bfbf;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  

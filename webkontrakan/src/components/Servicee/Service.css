@@ -1,0 +1,88 @@
+
+.container-service{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+h1 {
+    color: #2b7a78;
+    text-align: center;
+    justify-content:center;
+}
+
+p {
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    gap: 20px;
+    padding:10px;
+    padding-left: 10px;
+}
+
+.tab {
+    background-color: #e0f7f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.10s ease, box-shadow 0.10s ease;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.3s;
+    margin: 0 10px;
+}
+
+.tab.active {
+    background-color: #80deea;
+}
+
+.tab h3 {
+    margin: 0;
+    color: #004d40;
+  }
+  
+  .tab p {
+    font-size: 14px;
+    color: #004d40;
+  }
+  
+  .form {
+    margin: 20px 0;
+  }
+  
+  .input-customer {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #b2dfdb;
+  }
+  
+  .select-region {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #b2dfdb;
+  }
+  
+  .button-continue {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #004d40;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-continue:hover {
+    background-color: #00796b;
+  }

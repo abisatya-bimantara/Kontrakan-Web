@@ -1,0 +1,30 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsIm5hbWUiOiJIaWRheWF0IE51ciBTeWFocHV0cmEiLCJlbWFpbCI6ImhpZGF5YXRAZ21haWwuY29tIiwiaWF0IjoxNzE4ODA5ODE5LCJleHAiOjE3MTg4MDk4Mzl9.K4Aa8rm5IanaP0l1MMm_IrwBif5m8F7q5HRmp-ejYWw
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "jaya",
+    "email": "jaya@gmail.com",
+    "phone_number": "08233482324",
+    "address": "kendal",
+    "password": "1234567",
+    "confPassword": "1234567"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "hidayat@gmail.com",
+    "password": "12345"
+}
+
+###
+GET http://localhost:5000/token
+
+###
+DELETE http://localhost:5000/logout

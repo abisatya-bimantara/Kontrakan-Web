@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: auto;
+  }
+  
+  .app {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 90px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .header .mark-all-read {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .header .close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .notifications {
+    margin-top: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .notification-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .notification-item.read .dot {
+    background-color: transparent;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #00aaff;
+    margin-right: 10px;
+  }
+  
+  .notification-content {
+    flex: 1;
+  }
+  
+  .notification-content .message {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .notification-content .time {
+    font-size: 14px;
+    color: #666;
+  }
+  

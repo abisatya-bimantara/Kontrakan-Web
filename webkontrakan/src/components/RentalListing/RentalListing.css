@@ -1,0 +1,177 @@
+
+.container-rental {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.fieldset {
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.section {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 5px 15px;
+    border: 1px solid #26a69a;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #26a69a;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button.active, .button:hover {
+    background-color: #26a69a;
+    color: #ffffff;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.txt {
+    font-weight: 500;
+}
+
+.span {
+    margin-left: 5px;
+}
+
+.link-icon, .link-icon1 {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.grid {
+    display:flex;
+    justify-content: center;
+    padding: 100px;
+    padding: 50px;
+}
+
+.listing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 700%;
+}
+
+.listing-card {
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #ddd;  
+}
+
+.listing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.listing-card img {
+    width: calc(100% - 2px); 
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 1px; 
+}
+
+.listing-details {
+    padding: 15px;
+    text-align: center;
+}
+
+.listing-details h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.rating {
+    color: #ffc107;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.wishlist-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #e74c3c;
+    cursor: pointer;
+}
+
+.Navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.Navigation li {
+    margin: 0 5px;
+}
+
+.Navigation a {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #777;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Navigation .active a {
+    background-color: #26a69a;
+    color: white;
+}
+
+.Navigation a:hover {
+    background-color: #ddd;
+    color: #555;
+}
+
+.Navigation .arrow {
+    font-size: 16px;
+    color: #777;
+}
+
+.Navigation .arrow:hover {
+    color: #555;
+}
+
+.Navigation .disabled .arrow {
+    color: #ccc;
+    pointer-events: none;
+}

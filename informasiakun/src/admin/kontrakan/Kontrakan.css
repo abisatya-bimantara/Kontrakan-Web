@@ -1,0 +1,116 @@
+.app-container {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-content {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .header-item {
+    padding: 10px;
+  }
+  
+  .profile-pic {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 700px;
+    height: 56px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-bar .search-button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #eaf4f4;
+    cursor: pointer;
+  }
+  
+  .property-card {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 700px;
+    height: 550px;
+    text-align: center;
+  }
+
+  .property-card h2 {
+    color: #5AA7A7;
+    font-weight: bold;
+    font-size: 24;
+    margin: auto;
+    
+  }
+  .property-card img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .property-status {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .property-status .draft {
+    background-color: #eaf4f4;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .status-alert {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .status-alert span {
+    color: red;
+  }
+  
+  .status-alert p {
+    text-align: center;
+    margin-left: 100px;
+  }
+
+  .property-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .property-actions button {
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: #67A097;
+    background-color: #67A097;
+    color: #F3FBFA;
+    font-weight: bolder;
+    margin-top: 50px;
+    border-width: 1px;
+}

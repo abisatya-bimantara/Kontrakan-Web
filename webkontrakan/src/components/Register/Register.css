@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+}
+.container {
+    display:flex;
+    height: 90vh;
+}
+
+.login-image {
+    flex: 1;
+    display: flex;
+    justify-content:left;
+    align-items:baseline;
+    background-color: #7BC0B5;
+}
+
+.login-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.register-form {
+    flex: 1;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+}
+
+.input-group .spasi {
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.input-group {
+    display: flex;
+    margin-top: 15px;
+    width: 600px;
+}
+
+.input-group input {
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    border-radius: 5px;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.882);
+    font-size: 1em;
+}
+
+.input-group span {
+    position: absolute;
+    left: 810px;
+    padding: 15px 20px;
+    pointer-events: none;
+    font-size: 1em;
+    transition: 0.5s;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.input-group .spasi-nomer{
+    margin-left: 307px;
+}
+
+.input-group input:focus ~ span,
+.input-group input:valid ~ span
+{
+    color: #7BC0B5;
+    font-size: 0.75em;
+    transform: translateX(20px) translateY(-10px);
+    padding: 0 5px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button[type="submit"].daftar-btn {
+    width: 50%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #00bfa5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 150px;
+    justify-content: center;
+}
+
+button[type="submit"].daftar-btn:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.social-register {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-register p {
+    margin-bottom: 10px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.social-buttons .facebook {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.social-buttons .google {
+    background-color: #ffffff;
+    color: #fff;
+    border: 1px solid #000000;
+}
+
+.social-buttons .apple {
+    background-color: #ffffff;
+    color: #fff;
+    border: 1px solid #000000;
+}
